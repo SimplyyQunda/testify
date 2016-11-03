@@ -16,7 +16,14 @@ describe('Fizzbuzz returns values for different kinds of numbers', function () {
   });
 
   // Your Tests Here
+  it('should return fizz for numbers divisible by 3', function () {
+  	let result = fizz(3);
+  	assert.equal(result, 'fizz');
+  })
+  
 });
+
+	
 
 // UNCOMMENT THE SECTION BELOW FOR HARD MODE
 
