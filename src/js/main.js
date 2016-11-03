@@ -1,9 +1,16 @@
 function fizz (number) {
 	if(number % 3 === 0) {
 		return 'fizz';
+
 	}	
 	return number;
 };
+ function buzz (number){
+
+    if(number % 5 ===0) {
+		return 'buzz';
+	}		
+ };
 
 
 function fizzBuzz (start, end) {
@@ -12,3 +19,4 @@ function fizzBuzz (start, end) {
 };
 
 export { fizz };
+export { buzz };
