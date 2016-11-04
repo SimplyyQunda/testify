@@ -29,7 +29,7 @@ describe('Fizzbuzz returns values for different kinds of numbers', function () {
   	assert.equal(result,'buzz');
   })
 
-  it('should return fizzBuzz for numbers divisible by 3 and 5', function(){
+  it('should return fizzBuzz for numbers divisible forby 3 and 5', function(){
   	let result = fizz(15);
   	assert.equal(result, 'fizzBuzz');
   })

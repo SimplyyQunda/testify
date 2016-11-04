@@ -14,9 +14,16 @@ function fizz  (number) {
 
 
 function fizzBuzz (start, end) {
-  // Write fizzBuzz here once fizz is finished.
+	for (var count = start; count <= end; count++) {
+		console.log(fizz(count))
+		
+	}
+  
  	
 };
 
 export { fizz };
+
+
+
 
