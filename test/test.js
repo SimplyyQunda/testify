@@ -3,7 +3,8 @@ import chai from 'chai';
 
 // Import Any Files to Test
 import { fizz } from "../src/js/main";
-import { buzz } from "../src/js/main";
+
+
 
 
 // Set Chai Constants
@@ -24,9 +25,11 @@ describe('Fizzbuzz returns values for different kinds of numbers', function () {
   })
 
   it('should return buzz for numbers divisible by 5', function () {
-  	let result = buzz(5);
+  	let result = fizz(5);
   	assert.equal(result,'buzz');
   })
+
+ 
 
 });
 
